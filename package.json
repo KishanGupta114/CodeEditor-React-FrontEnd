@@ -1,0 +1,54 @@
+{
+  "name": "client",
+  "version": "1.0.1",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.1.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.21.0",
+    "baseui": "^9.104.0",
+    "monaco-editor-webpack-plugin": "^2.0.0",
+    "monaco-vim": "^0.1.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-github-corner": "^2.5.0",
+    "react-monaco-editor": "^0.40.0",
+    "react-redux": "^7.2.2",
+    "react-resize-detector": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-select": "^3.1.0",
+    "react-spinners-kit": "^1.9.1",
+    "react-split-pane": "^0.1.92",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^6.0.0",
+    "styletron-engine-atomic": "^1.4.6",
+    "styletron-react": "^5.2.7"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-plugin-baseui": "^9.104.0",
+    "react-app-rewired": "^2.1.6"
+  }
+}
